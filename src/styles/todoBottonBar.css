@@ -1,0 +1,17 @@
+
+.todoBottonBar {
+    position: sticky;
+    width: 100vw;
+    height: 65px;
+    top: 100%;
+    *bottom: 0;
+    background: #EEEEEE;
+}
+
+.todoBotton {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 25px;
+    left: 160px;
+}

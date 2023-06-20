@@ -1,0 +1,75 @@
+.appAccess {
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(229, 0, 0, 0.71) 9.02%, rgba(221, 6, 7, 0.720854) 11.25%, #1593AF 68.67%);
+}
+
+.appAccess__card {
+    position: absolute;
+    width: 300px;
+    height: 570px;
+    top: 0px;
+    margin-left: 45px;
+    background: #222222;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.appAccess__logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 106px;
+    top: 56px;
+}
+
+.appAccess__card h1 {
+    position: absolute;
+    left: 8.97%;
+    right: 8.97%;
+    top: 33.86%;
+    bottom: 48.6%;
+
+    font-family: 'Creepster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.appAccess__card h3 {
+    position: absolute;
+    width: 245px;
+    height: 46px;
+    left: 34px;
+    top: 337px;
+
+    font-family: 'Montserrat', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #C1CC41;
+}
+
+.appAccess__card button {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 437px;
+    left: 81px;
+    background-color: #1AB8DB;
+    color: #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
