@@ -57,6 +57,9 @@
     font-family: 'montserrat', sans-serif;
 }
 
-
+.listOfTodos {
+    height: 100%;
+    margin: 20px;
+}
 
 

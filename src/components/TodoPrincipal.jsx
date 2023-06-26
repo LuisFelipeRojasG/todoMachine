@@ -4,6 +4,8 @@ import { TodoLogo } from "./TodoLogo";
 import { TodoBottonBar } from "./TodoBottomBar";
 import { TodoContext } from '../context/indexContext';
 import '../styles/todoPrincipal.css';
+import { TodoCounter } from "./TodoCounter";
+import { TodoList } from "./TodoList";
 
 function TodoPrincipal () {
 
@@ -22,18 +24,18 @@ function TodoPrincipal () {
             </span>
             <div className="todoPrincipal__body">
                 <div className="body__controls">
-                    <p>8 Todos completados de 15</p>
+                    <TodoCounter />
                 </div>
                 <div className="body__itemHeader">
                     <p>Task</p>
                 </div>
-                <div>Donde se muestran los todos que se crean</div>
+                <div className="listOfTodos"> 
+                    <TodoList />
+                </div>
             </div>
             <TodoBottonBar />
         </div>
-        
     );
-
 }
 
 export { TodoPrincipal };

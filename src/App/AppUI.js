@@ -1,12 +1,8 @@
 import React from 'react';
-//import { useState } from 'react';
 import './AppUI.css';
 import { TodoAccess } from '../components/TodoAccess';
 import { TodoPrincipal } from '../components/TodoPrincipal';
-//import { TodoCreate } from '../components/TodoCreate';
 import { TodoModal } from '../components/TodoModal';
-
-
 
 function AppUI() {
 
@@ -15,10 +11,7 @@ function AppUI() {
       <main className='mainContainer'>
         <TodoAccess />
         <TodoPrincipal />
-        {/* <TodoCreate /> */}
-        <TodoModal>
-          
-        </TodoModal>
+        <TodoModal></TodoModal>
       </main>
     </>
   );
