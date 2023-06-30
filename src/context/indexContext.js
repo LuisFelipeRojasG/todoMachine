@@ -42,12 +42,12 @@ function TodoProvider ({children}) {
         });
     }
 
-    const addTodo = (text, descrip) => {
+    const addTodo = (text, description) => {
         const newTodos = [...todos];
         newTodos.push({
             completed:false,
             text,
-            descrip,
+            description,
         });
         saveTodos(newTodos);
     }

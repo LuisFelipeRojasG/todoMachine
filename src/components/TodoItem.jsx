@@ -3,19 +3,19 @@ import '../styles/todoItem.css'
 
 function TodoItem ({text, completed, description}) {
     return (
-        <>
-            <li className="todoItem">
-                <p className={`TodoItem-p ${completed && 'TodoItem-p--complete'}`}>
+        <div className="todoItem">
+            <div className="todoItem--button">
+                <button typeof="checked"></button>
+            </div>
+            <div className="todoItem--text">
+                <p className={`todoItem--title`}>
                     {text}
                 </p>
-                <p className={`TodoItem-p ${completed && 'TodoItem-p--complete'}`}>
+                <p className={`todoItem--description`}>
                     {description}
                 </p>
-                <span  className="Icon Icon-delete" onClick={{/*onDelete*/}}>
-                    x
-                </span>
-            </li>
-        </>
+            </div>
+        </div>
     );
 }
 

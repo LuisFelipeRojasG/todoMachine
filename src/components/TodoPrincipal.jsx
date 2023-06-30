@@ -27,6 +27,7 @@ function TodoPrincipal () {
                     <TodoCounter />
                 </div>
                 <div className="body__itemHeader">
+                    <button typeof="checked"></button>
                     <p>Task</p>
                 </div>
                 <div className="listOfTodos"> 

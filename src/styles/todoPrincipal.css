@@ -3,7 +3,7 @@
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 .todoPrincipalLogo {
@@ -24,8 +24,8 @@
 }
 
 .body__controls {
-    height: 50px;
-    margin: 15px;
+    height: 80px;
+    margin: 40px 15px 10px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px dashed rgba(34, 34, 34, 0.5);

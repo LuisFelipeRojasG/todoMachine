@@ -1,13 +1,14 @@
 import React from "react";
 import { TodoContext } from '../context/indexContext';
 import { TodoItem } from "./TodoItem";
+import '../styles/todoList.css';
 
 function TodoList () {
 
     const {searchedTodos} = React.useContext(TodoContext);
 
     return (
-        <div>
+        <div className="todoContainer">
             {searchedTodos.map(todo => (
                 <TodoItem
                     key={todo.text}

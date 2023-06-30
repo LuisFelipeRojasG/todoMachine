@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { TodoLogo } from './TodoLogo';
-import logo from '../assets/icon_X.png';
+import close from '../assets/icon_X.png';
 import '../styles/TodoCreate.css'
 import { TodoContext } from '../context/indexContext';
 
@@ -28,10 +28,12 @@ function TodoCreate () {
 
     const onChangeTitle = (event) => {
         setNewTitleValue(event.target.value);
+        console.log(setNewTitleValue);
     }
 
     const onChangeDescrip = (event) => {
         setNewDescripValue(event.target.value);
+        console.log(event.target.value);
     }
 
 
@@ -39,7 +41,7 @@ function TodoCreate () {
         <div className='todoCreate' >
             <div className="todoCreate__navBar">
                 <h1>ADD TASK</h1>
-                <img src={logo} alt="Close" onClick={closeModal}/>
+                <img src={close} alt="Close" onClick={closeModal}/>
             </div>
             <div className='todoCreate__container'>
                 <span className='container__logo'>
