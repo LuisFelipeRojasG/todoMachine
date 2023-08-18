@@ -6,6 +6,12 @@ import { TodoContext } from '../context/indexContext';
 import '../styles/todoPrincipal.css';
 import { TodoCounter } from "./TodoCounter";
 import { TodoList } from "./TodoList";
+import { TodoSearch } from "./TodoSearch";
+
+const deleteAll = () => {
+    console.log("Quieres eliminar la lista de Todos");
+}
+
 
 function TodoPrincipal () {
 
@@ -26,9 +32,15 @@ function TodoPrincipal () {
                 <div className="body__controls">
                     <TodoCounter />
                 </div>
-                <div className="body__itemHeader">
-                    <button typeof="checked"></button>
-                    <p>Task</p>
+                <div className="body__searchField">
+                    <input className="body__searchField--field" type="search" name="" id="" />
+                    <div className="body__searchField--button" type="submit" value="">
+                        <TodoSearch 
+                            width={25}
+                            height={25}
+                            display={'center'}
+                        />   
+                    </div> 
                 </div>
                 <div className="listOfTodos"> 
                     <TodoList />
