@@ -1,17 +1,8 @@
 import React from 'react';
-//import { useLocalStorage } from './useLocalStorage';
 import { useState } from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 const TodoContext = React.createContext();
-
-// const defaultTodos = [
-//     { text: 'Cortar cebolla', completed:true },
-//     { text: 'Tomar el cursso de intro a React', completed:false },
-//     { text: 'Llorar con la llorona', completed:true },
-//     { text: 'LALALALAA', completed:false },
-// ];
-
 
 
 function TodoProvider ({children}) {
@@ -19,7 +10,7 @@ function TodoProvider ({children}) {
     const [viewPrincipal, setViewPrincipal] = useState('none');
     const [openTodoModal, setOpenTodoModal] = useState('none');
     //const [todos, setTodos] = useState(defaultTodos);
-    //const [searchTodo, setSearchTodo] = useState('');
+    const [searchTodo, setSearchTodo] = useState('');
     const [searchValue, setSearchValue] = useState('');
 
     const [todos, saveTodos] = useLocalStorage('Todos_v1', []);
@@ -32,12 +23,12 @@ function TodoProvider ({children}) {
     let searchedTodos = [];
 
     // Lógica para filtrar
-    if (!searchValue.length >= 1) {
+    if (!searchTodo.length >= 1) {
         searchedTodos = todos;
     } else {
         searchedTodos = todos.filter(todo => {
             const todoText = todo.text.toLowerCase();
-            const searchText = searchValue.toLowerCase();
+            const searchText = searchTodo.toLowerCase();
             return todoText.includes(searchText);
         });
     }
@@ -67,22 +58,24 @@ function TodoProvider ({children}) {
     };
 
     return(
-        <TodoContext.Provider value={{
-            viewPrincipal,
-            setViewPrincipal,
-            openTodoModal,
-            setOpenTodoModal,
-            todos, 
-            //setTodos,
-            completedTodos,
-            totalTodos,
-            //searchTodo, 
-            //setSearchTodo,
-            searchedTodos,
-            completeTodo,
-            deleteTodo,
-            addTodo,
-        }}>
+        <TodoContext.Provider 
+            value={{
+                viewPrincipal,
+                setViewPrincipal,
+                openTodoModal,
+                setOpenTodoModal,
+                todos, 
+                //setTodos,
+                completedTodos,
+                totalTodos,
+                searchTodo, 
+                setSearchTodo,
+                searchedTodos,
+                completeTodo,
+                deleteTodo,
+                addTodo,
+            }}
+        >
             {children}
         </TodoContext.Provider>
     );
