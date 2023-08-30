@@ -5,7 +5,7 @@ import '../styles/todoList.css';
 
 function TodoList () {
 
-    const {searchedTodos} = React.useContext(TodoContext);
+    const {searchedTodos, completeTodo, deleteTodo } = React.useContext(TodoContext);
 
     return (
         <div className="todoContainer">
@@ -15,6 +15,8 @@ function TodoList () {
                     text={todo.text}
                     completed={todo.completed}
                     description={todo.description}
+                    onComplete={() => completeTodo(todo.text)}
+                    onDelete={() => deleteTodo(todo.text)}
                 />        
             ))}
         </div>

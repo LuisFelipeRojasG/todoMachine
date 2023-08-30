@@ -1,17 +1,22 @@
 .todoItem {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
     background-color: rgba(217, 217, 217, 0.5);
     border-radius: 15px;
 }
 
-.todoItem--button button {
+.todoItem__button {
     width: 50px;
     height: 50px;
     margin: 10px;
     border-radius: 15px;
     border: 3px solid rgba(26, 184, 219, 1);
+}
+
+.todoItem__button--check {
+    border: 3px solid rgb(38, 211, 61);
 }
 
 .todoItem--text {

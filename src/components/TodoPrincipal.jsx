@@ -8,10 +8,6 @@ import { TodoCounter } from "./TodoCounter";
 import { TodoList } from "./TodoList";
 import { TodoSearch } from "./TodoSearch";
 
-const deleteAll = () => {
-    console.log("Quieres eliminar la lista de Todos");
-}
-
 
 function TodoPrincipal () {
 

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { TodoLogo } from './TodoLogo';
 import close from '../assets/icon_X.png';
-import '../styles/TodoCreate.css'
+import '../styles/todoCreate.css';
 import { TodoContext } from '../context/indexContext';
 
 function TodoCreate () {

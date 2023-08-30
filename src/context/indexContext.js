@@ -11,7 +11,7 @@ function TodoProvider ({children}) {
     const [openTodoModal, setOpenTodoModal] = useState('none');
     //const [todos, setTodos] = useState(defaultTodos);
     const [searchTodo, setSearchTodo] = useState('');
-    const [searchValue, setSearchValue] = useState('');
+    //const [searchValue, setSearchValue] = useState('');
 
     const [todos, saveTodos] = useLocalStorage('Todos_v1', []);
 
@@ -44,15 +44,15 @@ function TodoProvider ({children}) {
     }
 
     const completeTodo = (text) => {
-		const todoIndex = todos.findIndex(todo => todo.text === text);
+        const todoIndex = todos.findIndex(todo => todo.text === text);
 		const newTodos = [...todos];
 	    newTodos[todoIndex].completed = true;
 	    saveTodos(newTodos);
     };
 
     const deleteTodo = (text) => {
-		const todoIndex = todos.findIndex(todo => todo.text === text);
 		const newTodos = [...todos];
+        const todoIndex = newTodos.findIndex(todo => todo.text === text);
 	    newTodos.splice(todoIndex, 1);
 	    saveTodos(newTodos);
     };
