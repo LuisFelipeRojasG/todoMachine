@@ -2,7 +2,6 @@
     flex-direction: column;
     width: auto;
     height: auto;
-    *background-color: aquamarine;
 }
 
 .todoCreate__navBar {
@@ -17,10 +16,10 @@
 .todoCreate__navBar h1 {
     margin-left: 10px;
     margin-top: 20px;
-    font-family: 'montserrat', sans-serif;
+    font-family: var(--first-fontfamily);
     font-weight: 700;
     font-size: 25px;
-    color: rgba(26, 184, 219, 0.85);
+    color: var(--first-color);
 }
 
 .todoCreate__navBar img {
@@ -53,10 +52,10 @@
 }
 
 .container__form label {
-    font-family: 'montserrat', sans-serif;
+    font-family: var(--first-fontfamily);
     font-weight: 600;
     font-size: 20px;
-    color: rgba(26, 184, 219, 0.85);
+    color: var(--first-color);
 }
 
 .container__form input {
@@ -64,9 +63,9 @@
     height: 50px;
     margin-top: 20px;    
     margin-bottom: 25px;
-    border: 1px solid rgba(26, 184, 219, 0.85);
+    border: 1px solid var(--first-color);
     border-radius: 10px;
-    font-family: 'montserrat', sans-serif;
+    font-family: var(--first-fontfamily);
     font-size: 14px;
     font-weight: 400;
     padding-left: 20px;
@@ -83,18 +82,18 @@
     width: 120px;
     height: 40px;
     margin: 0 15px;
-    color: white;
+    color: var(--second-text);
     border-radius: 20px;
-    font-family: 'montserrat', sans-serif;
+    font-family: var(--first-fontfamily);
     font-size: 15px;
 }
 
 .buttons--blue {
-    background-color: rgba(26, 184, 219, 1);
-    border: 1px solid rgba(26, 184, 219, 1);
+    background-color: var(--first-color);
+    border: 1px solid var(--first-color);
 }
 
 .buttons--red {
-    background-color: rgba(255, 0, 0, 1);
-    border: 1px solid rgba(255, 0, 0, 1);
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
 }

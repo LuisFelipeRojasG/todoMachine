@@ -29,15 +29,13 @@
     right: 8.97%;
     top: 33.86%;
     bottom: 48.6%;
-
-    font-family: 'Creepster', cursive;
+    font-family: var(--second-fontfamily);
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
     text-align: center;
-
-    color: #FFFFFF;
+    color: var(--second-text);
 }
 
 .appAccess__card h3 {
@@ -46,14 +44,12 @@
     height: 46px;
     left: 34px;
     top: 337px;
-
-    font-family: 'Montserrat', sans-serif; 
+    font-family: var(--first-fontfamily);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-
     color: #C1CC41;
 }
 
@@ -63,10 +59,10 @@
     height: 60px;
     top: 437px;
     left: 81px;
-    background-color: #1AB8DB;
-    color: #FFFFFF;
+    background-color: var(--first-color);
+    color: var(--second-text);
     border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--first-fontfamily);
     font-style: normal;
     font-weight: 500;
     font-size: 24px;

@@ -33,7 +33,7 @@
 }
 
 .body__controls p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--first-fontfamily);
 }
 
 .listOfTodos {

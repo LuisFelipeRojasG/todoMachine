@@ -13,9 +13,9 @@
     height: 100%;
     font-size: x-large;
     font-weight: 700;
-    border: 3px solid #1ab8d8;
+    border: 3px solid var(--first-color);
     border-radius: 15px;
-    color: #1AB8DB;
+    color: var(--first-color);
 }
 
 

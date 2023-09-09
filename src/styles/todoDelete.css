@@ -3,5 +3,5 @@
 }
 
 .delete__icon:hover {
-    fill: red;
+    fill: var(--second-color);;
 }

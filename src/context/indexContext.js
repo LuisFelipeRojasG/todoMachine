@@ -9,10 +9,7 @@ function TodoProvider ({children}) {
 
     const [viewPrincipal, setViewPrincipal] = useState('none');
     const [openTodoModal, setOpenTodoModal] = useState('none');
-    //const [todos, setTodos] = useState(defaultTodos);
     const [searchTodo, setSearchTodo] = useState('');
-    //const [searchValue, setSearchValue] = useState('');
-
     const [todos, saveTodos] = useLocalStorage('Todos_v1', []);
 
     // Cantidad de TODOs completados
@@ -64,8 +61,7 @@ function TodoProvider ({children}) {
                 setViewPrincipal,
                 openTodoModal,
                 setOpenTodoModal,
-                todos, 
-                //setTodos,
+                todos,
                 completedTodos,
                 totalTodos,
                 searchTodo, 

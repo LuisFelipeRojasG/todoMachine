@@ -15,13 +15,13 @@ function TodoCreate () {
     }
 
     const onSubmit = (event) => {
-        // prevent default para evitar recargar la página
+        //para evitar recargar la página
         event.preventDefault();
-        // Utilizamos nuestra función para añadir nuestro TODO
+        
         addTodo(newTitleValue, newDescripValue);
-        // Cerramos nustro modal
+        
         setOpenTodoModal('none');
-        // También estaría bien resetear nuestro formulario
+        
         setNewTitleValue('');
         setNewDescripValue('');
     };
