@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/css/main.24e1d6c5.css",
-    "main.js": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/js/main.75c4f0fd.js",
-    "static/media/logo.svg": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/logo.6b0507051dc2efbfb61f6419de8c7056.svg",
-    "static/media/crear.svg": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/crear.ad2132782f5e29731e3780947839dda7.svg",
-    "index.html": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/index.html",
-    "static/media/iconX.svg": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/iconX.03c9437d407d86ea0524a7086753747f.svg",
-    "main.24e1d6c5.css.map": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/css/main.24e1d6c5.css.map",
-    "main.75c4f0fd.js.map": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/js/main.75c4f0fd.js.map"
+    "main.css": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/css/main.24e1d6c5.css",
+    "main.js": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/js/main.b56a9ce3.js",
+    "static/media/logo.svg": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/logo.6b0507051dc2efbfb61f6419de8c7056.svg",
+    "static/media/crear.svg": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/crear.ad2132782f5e29731e3780947839dda7.svg",
+    "index.html": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/index.html",
+    "static/media/iconX.svg": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/iconX.03c9437d407d86ea0524a7086753747f.svg",
+    "main.24e1d6c5.css.map": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/css/main.24e1d6c5.css.map",
+    "main.b56a9ce3.js.map": "/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/js/main.b56a9ce3.js.map"
   },
   "entrypoints": [
     "static/css/main.24e1d6c5.css",
-    "static/js/main.75c4f0fd.js"
+    "static/js/main.b56a9ce3.js"
   ]
 }
