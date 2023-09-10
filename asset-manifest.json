@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LuisFelipeRojasG/todoMachine/static/css/main.24e1d6c5.css",
-    "main.js": "/LuisFelipeRojasG/todoMachine/static/js/main.97f8d040.js",
-    "static/media/logo.svg": "/LuisFelipeRojasG/todoMachine/static/media/logo.6b0507051dc2efbfb61f6419de8c7056.svg",
-    "static/media/crear.svg": "/LuisFelipeRojasG/todoMachine/static/media/crear.ad2132782f5e29731e3780947839dda7.svg",
-    "static/media/iconX.svg": "/LuisFelipeRojasG/todoMachine/static/media/iconX.03c9437d407d86ea0524a7086753747f.svg",
-    "index.html": "/LuisFelipeRojasG/todoMachine/index.html",
-    "main.24e1d6c5.css.map": "/LuisFelipeRojasG/todoMachine/static/css/main.24e1d6c5.css.map",
-    "main.97f8d040.js.map": "/LuisFelipeRojasG/todoMachine/static/js/main.97f8d040.js.map"
+    "main.css": "/todoMachine/static/css/main.24e1d6c5.css",
+    "main.js": "/todoMachine/static/js/main.c77aaa99.js",
+    "static/media/logo.svg": "/todoMachine/static/media/logo.6b0507051dc2efbfb61f6419de8c7056.svg",
+    "static/media/crear.svg": "/todoMachine/static/media/crear.ad2132782f5e29731e3780947839dda7.svg",
+    "static/media/iconX.svg": "/todoMachine/static/media/iconX.03c9437d407d86ea0524a7086753747f.svg",
+    "index.html": "/todoMachine/index.html",
+    "main.24e1d6c5.css.map": "/todoMachine/static/css/main.24e1d6c5.css.map",
+    "main.c77aaa99.js.map": "/todoMachine/static/js/main.c77aaa99.js.map"
   },
   "entrypoints": [
     "static/css/main.24e1d6c5.css",
-    "static/js/main.97f8d040.js"
+    "static/js/main.c77aaa99.js"
   ]
 }
