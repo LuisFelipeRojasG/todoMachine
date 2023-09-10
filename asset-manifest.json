@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/todoMachine/static/css/main.24e1d6c5.css",
-    "main.js": "/todoMachine/static/js/main.c77aaa99.js",
-    "static/media/logo.svg": "/todoMachine/static/media/logo.6b0507051dc2efbfb61f6419de8c7056.svg",
-    "static/media/crear.svg": "/todoMachine/static/media/crear.ad2132782f5e29731e3780947839dda7.svg",
-    "static/media/iconX.svg": "/todoMachine/static/media/iconX.03c9437d407d86ea0524a7086753747f.svg",
-    "index.html": "/todoMachine/index.html",
-    "main.24e1d6c5.css.map": "/todoMachine/static/css/main.24e1d6c5.css.map",
-    "main.c77aaa99.js.map": "/todoMachine/static/js/main.c77aaa99.js.map"
+    "main.css": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/css/main.24e1d6c5.css",
+    "main.js": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/js/main.75c4f0fd.js",
+    "static/media/logo.svg": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/logo.6b0507051dc2efbfb61f6419de8c7056.svg",
+    "static/media/crear.svg": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/crear.ad2132782f5e29731e3780947839dda7.svg",
+    "index.html": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/index.html",
+    "static/media/iconX.svg": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/media/iconX.03c9437d407d86ea0524a7086753747f.svg",
+    "main.24e1d6c5.css.map": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/css/main.24e1d6c5.css.map",
+    "main.75c4f0fd.js.map": "/Ubuntu-20.04/home/luisr/ProyectosPlatzi/ProgramacionWEB/TodoMachine/todomachine/build/static/js/main.75c4f0fd.js.map"
   },
   "entrypoints": [
     "static/css/main.24e1d6c5.css",
-    "static/js/main.c77aaa99.js"
+    "static/js/main.75c4f0fd.js"
   ]
 }
