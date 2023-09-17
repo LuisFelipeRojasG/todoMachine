@@ -1,5 +1,4 @@
 import React from "react";
-import { TodoHeader } from "./TodoHeader";
 import { TodoLogo } from "./TodoLogo";
 import { TodoBottonBar } from "./TodoBottomBar";
 import { TodoContext } from '../context/indexContext';
@@ -15,20 +14,20 @@ function TodoPrincipal () {
     
     return (
         <div className="todoPrincipal" style={{display: viewPrincipal}}>
-            <TodoHeader 
-                fondo="black"
-            />
-            <span className="todoPrincipalLogo">
-                <TodoLogo 
-                    width={80}
-                    height={80}
-                />   
-            </span>
-            <div className="todoPrincipal__body">
-                <div className="body__controls">
-                    <TodoCounter />
+            <header className="todoPrincipal__header">
+                <div className="header"></div>
+                <div className="todoPrincipal__header--controls">
+                    <TodoLogo 
+                        width={80}
+                        height={80}
+                    />
+                    <div className="header--controls">
+                        <TodoCounter />
+                    </div>
+                    <TodoSearch />
                 </div>
-                <TodoSearch />
+            </header>
+            <div className="todoPrincipal__body">
                 <div className="listOfTodos"> 
                     <TodoList />
                 </div>

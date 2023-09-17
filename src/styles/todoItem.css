@@ -20,7 +20,8 @@
 }
 
 .todoItem--text {
-    margin: 0 20px;
+    width: 100%;
+    padding-left: 10px;
     font-size: 20px;
 }
 

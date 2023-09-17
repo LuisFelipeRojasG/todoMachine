@@ -14,10 +14,11 @@ function TodoBottonBar () {
     return(
         <>
             <div className="todoBottonBar">
-                <Crear 
-                    className='todoBotton' 
-                    onClick={ changeView }
-                />
+                <div className='todoBotton'>
+                    <Crear 
+                        onClick={ changeView }
+                    />
+                </div>
                 <div className='todoBotton--bar'></div>
             </div>
         </>

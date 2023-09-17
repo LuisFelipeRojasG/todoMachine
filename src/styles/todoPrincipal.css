@@ -1,35 +1,45 @@
 
 .todoPrincipal {
     position: absolute;
-    top: 0;
     width: 100vw;
     height: 100vh;
-    padding-bottom: 20px;
+    overflow: hidden;
 }
 
-.todoPrincipalLogo {
-    display: block;
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 145px;
-    top: 20px;
-    padding: 10px;
+.todoPrincipal__header {
+    display: flex;
+    flex-direction: column;
+    height: 310px; 
 }
 
-.todoPrincipal__body {
+.header {
+    position: fixed;
     width: 100vw;
-    height: auto;
-    position: absolute;
-    top: 90px;
+    height: 70px;
+    background-color: var(--fisrt-text);
 }
 
-.body__controls {
+.todoPrincipal__header--controls {
+    position: absolute;
+    width: 100vw;
+    top: 30px;
+}
+
+.header--controls {
     height: 80px;
     margin: 40px 15px 10px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px dashed rgba(34, 34, 34, 0.5);
+}
+
+.todoPrincipal__body {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    top: 290px;
+    bottom: 100px;
+    overflow: auto;
 }
 
 .body__controls p {
@@ -40,5 +50,4 @@
     height: 100%;
     margin: 20px;
 }
-
 

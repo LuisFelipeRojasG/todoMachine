@@ -1,6 +1,8 @@
 
 .todoBottonBar {
     position: fixed;
+    display: flex;
+    justify-content: center;
     width: 100vw;
     height: 65px;
     top: 92%;
@@ -9,8 +11,7 @@
 
 .todoBotton {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 78px;
+    height: 78px;
     bottom: 25px;
-    left: 160px;
 }

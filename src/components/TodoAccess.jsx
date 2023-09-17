@@ -9,7 +9,7 @@ function TodoAccess () {
 
     const {setViewPrincipal} = React.useContext(TodoContext);
 
-    const [viewAccess, setViewAccess] = useState('block');
+    const [viewAccess, setViewAccess] = useState('flex');
     
     const changeView = () => {
         setViewAccess('none');
