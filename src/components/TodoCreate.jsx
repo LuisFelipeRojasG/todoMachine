@@ -28,12 +28,10 @@ function TodoCreate () {
 
     const onChangeTitle = (event) => {
         setNewTitleValue(event.target.value);
-        console.log(setNewTitleValue);
     }
 
     const onChangeDescrip = (event) => {
         setNewDescripValue(event.target.value);
-        console.log(event.target.value);
     }
 
 
