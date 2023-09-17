@@ -4,4 +4,12 @@
     margin-bottom: 90px;
 }
 
+@media(min-width: 762px) {
+    .todoContainer {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 

@@ -1,7 +1,8 @@
-.delete__icon {
+.delete__icon .icon__svg {
     margin: 20px;
+    fill: var(--first-color);
 }
 
-.delete__icon:hover {
-    fill: var(--second-color);;
+.delete__icon:hover .icon__svg {
+    fill: var(--second-color);
 }

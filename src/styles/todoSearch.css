@@ -27,3 +27,9 @@
     border-radius: 5px;
     border: 2px solid var(--first-color);
 }
+
+@media(min-width: 762px) {
+    .body__searchField {
+        width: 90vw;
+    }
+}
