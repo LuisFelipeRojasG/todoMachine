@@ -5,7 +5,9 @@
 
 ## Screenshot
 
-
+https://github.com/LuisFelipeRojasG/todoMachine/blob/main/src/assets/ToDo%20Machine01.png
+https://github.com/LuisFelipeRojasG/todoMachine/blob/main/src/assets/ToDo%20Machine02.png
+https://github.com/LuisFelipeRojasG/todoMachine/blob/main/src/assets/ToDo%20Machine03.png
 
 
 ## Diseño
