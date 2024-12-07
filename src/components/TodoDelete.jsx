@@ -5,7 +5,7 @@ function TodoDelete ({ width, height }) {
 
     return(
         <div className="delete__icon">
-            <Delete class="icon__svg" width={width} height={height}/>
+            <Delete className="icon__svg" width={width} height={height}/>
         </div>
     );
 }

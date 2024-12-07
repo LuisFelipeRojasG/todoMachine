@@ -9,9 +9,9 @@ function TodoList () {
 
     return (
         <div className="todoContainer">
-            {searchedTodos.map(todo => (
+            {searchedTodos.map((todo, index) => (
                 <TodoItem
-                    key={todo.text}
+                    key={index}
                     text={todo.text}
                     completed={todo.completed}
                     description={todo.description}

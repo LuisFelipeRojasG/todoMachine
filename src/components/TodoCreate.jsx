@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { TodoLogo } from './TodoLogo';
 import close from '../assets/icon_X.png';
 import '../styles/todoCreate.css';
@@ -6,9 +6,14 @@ import { TodoContext } from '../context/indexContext';
 
 function TodoCreate () {
 
-    const [newTitleValue, setNewTitleValue] = useState('');
-    const [newDescripValue, setNewDescripValue] = useState('');
-    const {addTodo, setOpenTodoModal} = useContext(TodoContext);
+    const {
+      addTodo,
+      setOpenTodoModal,
+      newTitleValue,
+      newDescripValue,
+      setNewTitleValue,
+      setNewDescripValue
+    } = useContext(TodoContext);
 
     const closeModal = () => {
         setOpenTodoModal('none')
@@ -16,12 +21,10 @@ function TodoCreate () {
 
     const onChangeTitle = (event) => {
         setNewTitleValue(event.target.value);
-        event.target.value = '';
     }
 
     const onChangeDescrip = (event) => {
         setNewDescripValue(event.target.value);
-        event.target.value = '';
     }
 
     const onSubmit = (event) => {
@@ -32,6 +35,10 @@ function TodoCreate () {
       
       setNewTitleValue('');
       setNewDescripValue('');
+      const cleanTitle = document.getElementById('container__form--title');
+      const cleanDescription = document.getElementById('container__form--description');
+      cleanTitle.value = '';
+      cleanDescription.value = '';
       setOpenTodoModal('none');
     };
 
@@ -62,7 +69,10 @@ function TodoCreate () {
               placeholder="Enter task description"
             />
             <div className="container__buttons">
-              <button type="submit" className="button buttons--blue">
+              <button 
+                type="submit" 
+                className="button buttons--blue"
+              >
                 Add
               </button>
               <button
