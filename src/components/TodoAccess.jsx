@@ -24,7 +24,7 @@ function TodoAccess () {
                         <TodoLogo />
                     </span>
                     <h1>MAKE SUCCESSFUL YOUR DAY</h1>
-                    <h3>Make small somethings to get big gift in your life</h3>
+                    <h2>Make small somethings to get big gift in your life</h2>
                     <button onClick={
                     changeView
                     }>Start</button>

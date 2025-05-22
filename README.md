@@ -1,6 +1,6 @@
 
 # ToDo Machine
-## ReactJS | Tailwindcss | MOBILE FIRST | RESPONSIVE DESIGN |
+## ReactJS | MOBILE FIRST | RESPONSIVE DESIGN |
 ### Proyecto realizado en ReactJS
 
 ## Screenshot
